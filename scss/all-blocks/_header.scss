@@ -1,0 +1,41 @@
+.header{
+    padding-top: 44px;
+    padding-bottom: 43px;
+
+    &__top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    &__site__logo-img{
+        padding-left: 0;
+    }
+
+    &__list{
+        display: flex;
+    }
+
+
+    &__link{
+        display: block;
+        font-family: 'Barlow', 'sans-serif';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+        color: #83888F;
+        padding-right: 0;
+        padding-left: 33px;
+        text-decoration: none; 
+
+
+
+        &:hover{
+            color: #333D4B;
+        }
+    }
+}
